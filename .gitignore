@@ -1,0 +1,15 @@
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints
+notebooks/modules/__pycache__
+notebooks/modules/models/__pycache__
+
+# Do not push API keys
+notebooks/my-translation-sa-key.json
+
+# exclude data from source control by default
+/data/*
+!/data/weights # Exception for weights
+
+# Mac OS-specific storage files
+.DS_Store
